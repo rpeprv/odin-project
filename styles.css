@@ -1,0 +1,170 @@
+* {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #1f2937;;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20%;
+    font-size: 10px;
+}
+
+.flex-left{
+
+    align-self: center;
+    margin-left: 17%;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+h1{
+    font-size: 20px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.hero-subtext{
+    font-size: 10px;
+    color: white;
+}
+
+.image-placeholder{
+    background-color: #6d747d;
+    padding: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image-placeholder > p{
+    color: white;
+    font-size: 10px;
+}
+
+button{
+    background-color: #3b82f6;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.random-information{
+
+        margin:5%;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+
+.random-information-product{
+    font-size: 10px;
+    text-align: center;
+}
+
+.square{
+
+    padding: 40px;
+    border-radius: 5px;
+    border-color: #3b82f6;
+    border-style: solid;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 5%;
+}
+
+.quote{
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+    margin-left: 25%;
+
+}
+
+.signature{
+    text-align: center;
+    margin-left: 25%;;
+    font-size: 12px;
+}
+
+.cta{
+   
+    padding: 5px;
+}
+
+.cta > p{
+    color: white;
+    font-size: 10px;
+}
+
+h5{
+    color: white;
+
+}
+
+.cta-section{
+    display: flex;
+    background-color: #3b82f6;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 20% 5%;
+    border-radius: 5px;
+}
+
+#call-par{
+    margin-top: -15px;
+}
+
